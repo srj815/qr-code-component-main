@@ -1,0 +1,19 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: #D6E1F0;
+}
+
+.box1{
+    color: #FFFFFF;
+    box-sizing: 20vw;
+}
+
+
+body img{
+    border-radius: 5px;
+}
