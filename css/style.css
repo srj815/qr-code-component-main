@@ -17,13 +17,13 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 50px;
+    padding-top: 50px;
 }
 
 body div.box1{
     background-color: #FFFFFF;
     max-width: 21vw;
-    max-height: 70vh;
+    height: auto;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -39,7 +39,7 @@ body div img.qr{
 
 body div h1.text1{
     font-family: 'Outfit', sans-serif;
-    padding-top: 10px;
+    padding-top: 20px;
     font-weight: 700;
     font-size: 16px;
     text-align: center;
@@ -47,13 +47,14 @@ body div h1.text1{
 
 body div h2.text2{
     font-family: 'Outfit', sans-serif;
-    padding: 10px;
+    padding: 15px 5px 17px 5px;
     font-weight: 400;
     font-size: 11px;
     text-align: center;
+    color: #0000006d;
 }
 body div.attribution{
     font-family: 'Outfit', sans-serif;
     font-size: 7px;
-    padding-top: 45px;
+    padding-top: 50px;
 }
