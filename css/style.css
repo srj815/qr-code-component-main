@@ -1,60 +1,61 @@
-@font-face {
-    font-family: 'Outfit', sans-serif;;
-    src: url(https://fonts.google.com/specimen/Outfit);
-}
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
 
+:root{
+    --background-color: #D6E1F0;
+    --box-color: #FFFFFF;
+    --font-color: #0000006d;
+}
 
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
+    font-family: 'Outfit', sans-serif;
 }
 
 body{
-    background-color: #D6E1F0;
+    background-color: var(--background-color);
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding-top: 50px;
 }
 
 body div.box1{
-    background-color: #FFFFFF;
-    max-width: 21vw;
+    background-color: var(--box-color);
+    width: 220px;
     height: auto;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
     padding: 10px;
     box-shadow: 0 10px 10px #00000010;
+    margin-top: 50px;
 }
 
 body div img.qr{
     border-radius: 10px;
-    max-width: 100%;
-    max-width: 100%;
+    width: 100%;
 }
 
 body div h1.text1{
-    font-family: 'Outfit', sans-serif;
-    padding-top: 20px;
+    margin-top: 20px;
     font-weight: 700;
-    font-size: 16px;
+    font-size: 1rem;
     text-align: center;
 }
 
 body div h2.text2{
     font-family: 'Outfit', sans-serif;
-    padding: 15px 5px 17px 5px;
+    margin: 15px 5px 17px;
     font-weight: 400;
-    font-size: 11px;
+    font-size: 0.688rem;
     text-align: center;
-    color: #0000006d;
+    color: var(--font-color)
 }
+
 body div.attribution{
-    font-family: 'Outfit', sans-serif;
-    font-size: 7px;
-    padding-top: 50px;
+    font-size: 0.438rem;
+    margin-top: 50px;
 }
