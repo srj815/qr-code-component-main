@@ -24,23 +24,23 @@ body{
 
 body div.box1{
     background-color: var(--box-color);
-    width: 220px;
+    width: 13.75rem;
     height: auto;
-    border-radius: 10px;
+    border-radius: 0.625rem;
     display: flex;
     flex-direction: column;
-    padding: 10px;
-    box-shadow: 0 10px 10px #00000010;
-    margin-top: 50px;
+    padding: 0.625rem;
+    box-shadow: 0 0.625rem 0.625rem #00000010;
+    margin-top: 3.125rem;
 }
 
 body div img.qr{
-    border-radius: 10px;
+    border-radius: 0.625rem;
     width: 100%;
 }
 
 body div h1.text1{
-    margin-top: 20px;
+    margin-top: 1.25rem;
     font-weight: 700;
     font-size: 1rem;
     text-align: center;
@@ -48,7 +48,7 @@ body div h1.text1{
 
 body div h2.text2{
     font-family: 'Outfit', sans-serif;
-    margin: 15px 5px 17px;
+    margin: 0.938rem 0.313rem 1.063rem;
     font-weight: 400;
     font-size: 0.688rem;
     text-align: center;
@@ -57,5 +57,17 @@ body div h2.text2{
 
 body div.attribution{
     font-size: 0.438rem;
-    margin-top: 50px;
+    margin-top: 3.125rem;
+}
+
+@media screen and (min-width: 500px) {
+    html{
+        font-size: 17px;
+    }    
+}
+
+@media screen and (min-width: 1100px) {
+    html{
+        font-size: 35px;
+    }    
 }
