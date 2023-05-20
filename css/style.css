@@ -26,7 +26,7 @@ body div.box1{
     background-color: var(--box-color);
     width: 13.75rem;
     height: auto;
-    border-radius: 0.625rem;
+    border-radius: 0.938rem;
     display: flex;
     flex-direction: column;
     padding: 0.625rem;
